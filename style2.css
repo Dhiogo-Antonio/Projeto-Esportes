@@ -27,9 +27,17 @@ section{
     gap: 150px;
 }
 
+
+.preco{
+    display: flex;
+    gap: 1px;
+    margin: -140px;
+}
+
+
 header img{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     padding: 40px;
 }
 
@@ -46,6 +54,7 @@ main{
     flex-direction: column;
     width: 100%;
     gap: 30px;
+    margin: -100px;
 }
 
 main a{
@@ -93,3 +102,12 @@ main a{
     box-shadow: 5px 5px white;
 }
 }
+
+
+.botao{
+    padding: 10px;
+    border-radius: 15px;
+    margin: -20px;
+    
+}
+
